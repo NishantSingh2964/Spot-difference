@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spot the Difference</title>
+
+</head>
+
+<body>
+
+    <div class="msg-container hide">
+        <p id="msg">Winner</p>
+        <button id="new-btn">New Game</button>
+    </div>
+
+    <main>
+        <h1 id="game-title">Spot the Difference</h1>
+        <div class="nav">
+            <div class="score">Difference: <span id="score">0</span></div>
+            <div class="timer">Time: <span id="timer">0</span>s</div>
+        </div>
+
+        <div class="game-container">
+            <div class="image-wrapper" id="container1">
+                <img id="img1" src="" alt="Image 1">
+            </div>
+            <div class="image-wrapper" id="container2">
+                <img id="img2" src="" alt="Image 2">
+            </div>
+        </div>
+        <button type="submit" class="btn" onclick="openPopup()">Show Hints</button>
+        <a href="https://github.com/NishantSingh2964/Spot-the-Difference" target="_blank" class="btn">View Code</a>
+
+        <div class="popup" id="popup">
+            <ul>
+                <li>Check Cactus Branches</li>
+                <li>Check Birds</li>
+                <li>Check Clouds</li>
+                <li>Number of Cactus Plants</li>
+                <li>Check Clouds Again</li>
+            </ul>
+            <button type="button" onclick="closePopup()">OK</button>
+        </div>
+
+    </main>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
