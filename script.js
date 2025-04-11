@@ -80,6 +80,8 @@ function showDifferences(wrapper, diff) {
 function showWinner(){
     msg.innerText = `Congratulations! You found all the differences in ${Math.floor((Date.now() - startTime) / 1000)}s`;
     msgContainer.classList.remove("hide");
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function resetGame() {
