@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     text-align: center;
-    margin: 40px;
+    margin: 20px;
     background: #3c5077;
     text-align: center;
     padding: 0 70px;
@@ -10,7 +10,7 @@ body {
 .nav{
     display: flex;
     justify-content: space-between;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 
@@ -121,7 +121,7 @@ a{
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 .msg-container{
-    height: 150vmin;
+    height: 100vmin;
     display: flex;
     justify-content: center;
     align-items: center;
