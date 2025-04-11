@@ -121,7 +121,7 @@ a{
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 .msg-container{
-    height: 100vmin;
+    height: 150vmin;
     display: flex;
     justify-content: center;
     align-items: center;
